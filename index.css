@@ -8,6 +8,29 @@ header{
     color: white;
     text-decoration: none;
 }
-main{
-   
+#listFilms div{
+    border: 1px solid black;
+    height: 30px;
+    background-color: #ffc55f;
+}
+#listFilms div:hover{
+    background-color: #ffb940;
+}
+#filmAction{
+    display: flex;
+    background-color: #ffec5e;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#filmAction div{
+    height: 20em;
+    width: 13em;
+    background-color: red;
+    border: 2px solid white;
+    margin: 10px;
+    display: flex;
+}
+.Titulo{
+    text-align: center;
+    background-color: #ff745f;
 }
