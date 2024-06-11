@@ -50,7 +50,7 @@ function filmAction(genreId, containerId) {
                 const forFilm = document.createElement('div')
                 const p = document.createElement('p')
                 forFilm.appendChild(p)
-                forFilm.style.background = `linear-gradient(rgb(0 0 0), rgb(255 102 102 / 0%)), url(https://image.tmdb.org/t/p/w500${films.poster_path})`;
+                forFilm.style.background = `linear-gradient(rgb(0 0 0/ 33%), rgb(255 102 102 / 0%)), url(https://image.tmdb.org/t/p/w500${films.poster_path})`;
                 forFilm.style.backgroundSize = 'cover'; // Para cobrir toda a div
                 forFilm.style.color = 'white'
                 p.innerHTML = `${films.overview}`

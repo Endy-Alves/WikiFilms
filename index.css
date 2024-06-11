@@ -1,5 +1,7 @@
 body, html{
     background-color: #000000 !important;
+    font-family: cursive !important;
+    background-image: url(./codioful-formerly-gradienta-1LirzgcpY2c-unsplash.jpg);
 }
 header{
     background-color: #920202;
@@ -19,8 +21,8 @@ footer{
 #listFilms div{
     border: 1px solid black;
     height: 30px;
-    background-color: #000000;
-    border: 1px solid gold;
+    background-color: transparent;
+    border: 1px solid rgba(253, 224, 58, 0.856);
     color: white;
 }
 #listFilms div:hover{
@@ -28,14 +30,14 @@ footer{
 }
 #filmAction, #filmRomance, #filmAdventure, #filmSus, #filmAnime{
     display: flex;
-    background-color: #000000;
+    background-color: transparent;
     flex-wrap: wrap;
     justify-content: center;
 }
 #filmAction div, #filmRomance div, #filmAdventure div, #filmSus div, #filmAnime div{
     height: 15em;
     width: 8em;
-    background-color: rgb(0, 0, 0);
+    background-color: transparent;
     border: 2px solid white;
     margin: 10px;
     display: flex;
@@ -68,23 +70,23 @@ footer{
 }
 .Titulo, .Titulo2{
     text-align: center;
-    background-color: black;
-    color: gold;
+    background-color: transparent;
+    color: rgba(253, 224, 58, 0.856);
     margin: 0;
 }
 #btn {
     border-color: black;
     color: black;
-    background-color: gold;
+    background-color: rgba(253, 224, 58, 0.856);
 }
 #btn:hover{
     background-color: rgb(0, 0, 0);
-    border-color: gold;
-    color: gold;
+    border-color: rgba(253, 224, 58, 0.856);
+    color: rgba(253, 224, 58, 0.856);
 }
 
 #showMore, #showLess, #showMore2, #showLess2, #showMore3, #showLess3, #showMore4, #showLess4, #showMore5, #showLess5{
-    background-color: gold;
+    background-color: rgba(253, 224, 58, 0.856);
     color: black;
     border: 2px solid black;
     width: 70%;
