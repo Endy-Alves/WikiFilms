@@ -1,8 +1,9 @@
 body, html{
     background-color: #000000 !important;
-    font-family: cursive !important;
+    font-family: "Bree Serif", serif !important;
     background-image: url(./julian-hochgesang-pVikeJwYOFA-unsplash.jpg);
 }
+
 main{
     filter: drop-shadow(1px 1px 20px black);
 }
