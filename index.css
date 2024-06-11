@@ -1,7 +1,10 @@
 body, html{
     background-color: #000000 !important;
     font-family: cursive !important;
-    background-image: url(./codioful-formerly-gradienta-1LirzgcpY2c-unsplash.jpg);
+    background-image: url(./julian-hochgesang-pVikeJwYOFA-unsplash.jpg);
+}
+main{
+    filter: drop-shadow(1px 1px 20px black);
 }
 header{
     background-color: #920202;
@@ -71,8 +74,9 @@ footer{
 .Titulo, .Titulo2{
     text-align: center;
     background-color: transparent;
-    color: rgba(253, 224, 58, 0.856);
+    color: rgb(255, 217, 0);
     margin: 0;
+    filter: drop-shadow(1px 1px 20px gold);
 }
 #btn {
     border-color: black;
