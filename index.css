@@ -1,5 +1,5 @@
 body, html{
-    background-color: #000000;
+    background-color: #000000 !important;
 }
 header{
     background-color: #920202;
@@ -7,6 +7,14 @@ header{
 .navbar-a{
     color: white;
     text-decoration: none;
+}
+footer{
+    display: flex;
+    background-color: #920202;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
 }
 #listFilms div{
     border: 1px solid black;
@@ -18,13 +26,13 @@ header{
 #listFilms div:hover{
     background-color: #ffb940;
 }
-#filmAction{
+#filmAction, #filmRomance, #filmAdventure, #filmSus, #filmAnime{
     display: flex;
     background-color: #000000;
     flex-wrap: wrap;
     justify-content: center;
 }
-#filmAction div{
+#filmAction div, #filmRomance div, #filmAdventure div, #filmSus div, #filmAnime div{
     height: 15em;
     width: 8em;
     background-color: rgb(0, 0, 0);
@@ -35,21 +43,27 @@ header{
     padding: 6px;
     transition: transform 0.3s ease-in-out;
 }
+#filmAction div h2, #filmRomance div h2, #filmAdventure div h2, #filmSus div h2, #filmAnime div h2{
+    font-size: 12px;
+}
 @media (max-width: 700px) {
-    #filmAction div{
+    #filmAction div, #filmRomance div, #filmAdventure div, #filmSus div, #filmAnime div{
         height: 7em;
         width: 4em;
     }
+    #filmAction div h2, #filmRomance div h2, #filmAdventure div h2, #filmSus div h2, #filmAnime div h2{
+        font-size: 7px;
+    }
 }
 
-#filmAction div p{
+#filmAction div p, #filmRomance div p, #filmAdventure div p, #filmSus div p, #filmAnime div p{
     display: none;
 }
-#filmAction div:hover{
+#filmAction div:hover, #filmRomance div:hover, #filmAdventure div:hover, #filmSus div:hover, #filmAnime div:hover{
     display: flex;
     transform: scale(1.1);
 }
-.Titulo{
+.Titulo, .Titulo2{
     text-align: center;
     background-color: black;
     color: gold;
@@ -63,7 +77,7 @@ header{
     background-color: rgb(221, 188, 0);
 }
 
-#showMore, #showLess{
+#showMore, #showLess, #showMore2, #showLess2, #showMore3, #showLess3, #showMore4, #showLess4, #showMore5, #showLess5{
     background-color: black;
     color: gold;
     border: none;

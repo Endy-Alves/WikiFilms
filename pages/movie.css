@@ -1,0 +1,23 @@
+body, html{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+#movie-details{
+    color: white;
+    margin: 15px;
+}
+#movie-details div{
+    height: 20em;
+    width: 15em;
+}
+header{
+    background-color: #920202;
+    display: flex;
+    justify-content: center;
+}
