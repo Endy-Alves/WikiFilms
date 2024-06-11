@@ -54,6 +54,9 @@ footer{
     #filmAction div h2, #filmRomance div h2, #filmAdventure div h2, #filmSus div h2, #filmAnime div h2{
         font-size: 7px;
     }
+    #showMore, #showLess, #showMore2, #showLess2, #showMore3, #showLess3, #showMore4, #showLess4, #showMore5, #showLess5{
+        font-size: 5px;
+    }
 }
 
 #filmAction div p, #filmRomance div p, #filmAdventure div p, #filmSus div p, #filmAnime div p{
