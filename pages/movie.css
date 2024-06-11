@@ -2,6 +2,8 @@ body, html{
     background-color: black;
     padding: 0;
     margin: 0;
+    font-family: "Bree Serif", serif;
+    background-image: url(../julian-hochgesang-pVikeJwYOFA-unsplash.jpg);
 }
 
 h1{
