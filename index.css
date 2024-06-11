@@ -55,7 +55,7 @@ footer{
         font-size: 7px;
     }
     #showMore, #showLess, #showMore2, #showLess2, #showMore3, #showLess3, #showMore4, #showLess4, #showMore5, #showLess5{
-        font-size: 5px;
+        font-size: 10px;
     }
 }
 
@@ -73,19 +73,29 @@ footer{
     margin: 0;
 }
 #btn {
+    border-color: black;
+    color: black;
+    background-color: gold;
+}
+#btn:hover{
+    background-color: rgb(0, 0, 0);
     border-color: gold;
     color: gold;
 }
-#btn:hover{
-    background-color: rgb(221, 188, 0);
-}
 
 #showMore, #showLess, #showMore2, #showLess2, #showMore3, #showLess3, #showMore4, #showLess4, #showMore5, #showLess5{
-    background-color: black;
-    color: gold;
-    border: none;
+    background-color: gold;
+    color: black;
+    border: 2px solid black;
+    width: 70%;
+}
+#showMore:hover, #showLess:hover, #showMore2:hover, #showLess2:hover, #showMore3:hover, #showLess3:hover, #showMore4:hover, #showLess4:hover, #showMore5:hover, #showLess5:hover{
+    background-color: rgb(218, 185, 0);
+    color: black;
+    border: 2px solid black;
 }
 .actionClass{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
